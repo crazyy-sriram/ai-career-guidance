@@ -1,0 +1,318 @@
+.home-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 80px 20px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.intro {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #4A00E0;
+    color: #fff;
+}
+.about-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.about-content h2 {
+    margin-top: 30px;
+}
+
+.about-content ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.about-content li {
+    margin-bottom: 10px;
+}
+.select-page {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.level-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px;
+}
+
+.level-card {
+    width: 180px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.level-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.level-card img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.level-card h3 {
+    color: white;
+    margin-top: 15px;
+}
+
+/* Background and Body Styling */
+body.select-page {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #FFD700;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Main Content Styling */
+.career-content {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Headings Styling */
+.career-content h2 {
+    margin-top: 30px;
+    color: #FFD700;
+    border-left: 5px solid #FFD700;
+    padding-left: 10px;
+}
+
+/* Lists Styling */
+.career-content ul, .career-content ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.career-content li {
+    margin-bottom: 10px;
+}
+
+/* Tables Styling */
+.career-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.career-content th, .career-content td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #777;
+}
+
+.career-content th {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.career-content td {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-links a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.college-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.college-gallery a {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 15px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.college-gallery a:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.college-gallery img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.college-gallery p {
+    color: #FFD700;
+    font-weight: bold;
+}
+/* AI Recommendation Form Styling */
+.ai-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ai-form label {
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+.ai-form input, .ai-form select {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.ai-form input::placeholder {
+    color: #aaa;
+}
+
+.ai-form button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ai-form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
